@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Reversed list takes longer to sort, since we have to bubble each element to the end. When the list is sorted there are no swaps and therfore it's faster. O(n**) x Ω(n)
+
+sort2 uses: Merge sort
+
+How do you know?: The fastest and consistent out of all three sort methods => O(n log n) x Ω(n log n). Performed very well on reversed list and lists with big amount of elements compared to other sort methods. The type of the list doesnt affect it's speed much.
+
+sort3 uses: Selection sort
+
+How do you know?: Not the fastest and sorting any list of the same amount of elements takes the similar amount of time => O(n**) x Ω(n**)
